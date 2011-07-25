@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/application_header"
+		android:layout_gravity="center"></TextView>
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/btnOpenActivity"
+		android:text="@string/button_open_activity"></Button>
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/btnOpenActivityForResponse"
+		android:text="@string/button_open_activity_for_response"></Button>
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/btnOpenUrl"
+		android:text="@string/button_open_url"></Button>
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:id="@+id/btnOpenGeo"
+		android:text="@string/button_open_geo"></Button>
+	<TextView
+		android:text="---"
+		android:id="@+id/tvResult"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"></TextView>
+</LinearLayout>

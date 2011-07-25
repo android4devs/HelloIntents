@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloIntents</string>
+    <string name="application_header">Intent examples</string>
+    <string name="button_open_activity">Open new Activity</string>
+    <string name="button_open_activity_for_response">Open Activity for response</string>
+    <string name="button_open_url">Open URL address</string>
+    <string name="button_open_geo">Open geo URI address</string>
+    <string name="second_activity_information">Just click back button.</string>
+    <string name="third_activity_hint">Type your response here...</string>
+    <string name="button_send_response">Send back response</string>
+</resources>
